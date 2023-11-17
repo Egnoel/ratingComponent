@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive Rating Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app">
+      <div class="wrapper">
+        <div class="container">
+          <div class="main" id="main">
+            <div class="star">
+              <img src="./images/icon-star.svg" alt="Star" />
+            </div>
+            <h1 class="title">How did we do?</h1>
+            <p class="description">
+              Please let us know how we did with our suport request. All
+              feedback is appreciated to help us improve our offering
+            </p>
+            <div class="list" id="list"></div>
+            <div>
+              <button type="button" class="btn" id="btn">SUBMIT</button>
+            </div>
+          </div>
+          <div class="main-2" id="main-2">
+            <div class="ilustrations">
+              <img
+                src="./images//illustration-thank-you.svg"
+                alt=""
+                class="thanks"
+              />
+            </div>
+            <div class="selection">
+              <span class="number"
+                >You selected <span id="rating-number">4</span> out of 5</span
+              >
+            </div>
+            <h1 class="title">Thank You</h1>
+            <p class="apreciation">
+              We appreciate you taking the time to give a rating. If you ever
+              need more support, don´t hesitate to get in touch!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

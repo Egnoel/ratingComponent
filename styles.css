@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+}
+
+.app {
+    width: 100%;
+    height: 100%;
+    background-color: hsl(216, 12%, 8%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 350px;
+    height: 350px;
+    border-radius: 8px;
+    background-color: hsl(213, 19%, 18%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 90%;
+    height: 90%;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.title {
+    color: hsl(0, 0%, 100%);
+}
+
+.description {
+    color: hsl(217, 12%, 63%);
+    font-weight: 400;
+    margin-top: 0;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.item {
+    width: 32px;
+    height: 32px;
+    background-color: hsl(216, 12%, 54%);
+    color: hsl(213, 19%, 18%);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+
+.active {
+    background-color: hsl(217, 12%, 63%);
+    color: hsl(0, 0%, 100%);
+}
+
+.btn {
+    width: 100%;
+    height: 36px;
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    border-radius: 16px;
+    border: none;
+}
+
+.btn:hover {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+    cursor: pointer;
+}
+
+.main-2 {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+
+.selection {
+    width: 70%;
+    height: 18px;
+    background-color: hsl(216, 12%, 8%);
+    color: hsl(25, 97%, 53%);
+    text-align: center;
+    border-radius: 16px;
+    margin-top: 12px;
+}
+
+.apreciation {
+    font-weight: 400;
+    color: hsl(217, 12%, 63%);
+    text-align: center;
+    font-size: 15px;
+    margin-top: 0;
+}
